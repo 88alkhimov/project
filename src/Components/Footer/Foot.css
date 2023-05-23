@@ -1,0 +1,146 @@
+.Foot {
+  height: 630px;
+  background-color: rgb(31, 29, 29);
+}
+
+.cover-container {
+  position: absolute;
+  bottom: -3270px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cover-img {
+  max-width: 30%;
+  height: auto;
+}
+
+.lin {
+  position: absolute;
+  justify-content: center;
+  bottom: -3310px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lin a {
+  color: white;
+  font-size: 14px;
+  margin: 0 13px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.lin a:hover {
+  border-bottom: 2px solid white;
+}
+
+.two-button-row {
+  position: absolute;
+  justify-content: center;
+  bottom: -3370px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: calc(100%);
+}
+
+.two-button-row a {
+  margin: 0 7px;
+}
+
+.two-blue-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(68, 65, 65);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.two-blue-btn:hover {
+  background-color: #0077CC;
+}
+
+.sfera {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-color: rgb(39, 37, 37);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-language {
+  position: absolute;
+  justify-content: center;
+  bottom: -3440px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page-language select {
+  width: 150px;
+  border: none;
+  border-radius: 2px;
+  height: 23px;
+}
+
+.lin2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  bottom: -3480px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.lin2 a {
+  color: white;
+  font-size: 14px;
+  margin: 0 13px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.lin2 a:hover {
+  border-bottom: 2px solid white;
+}
+
+.box4 {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  flex-wrap: wrap;
+  bottom: -3590px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+}
+
+.weather-box {
+  background-color: #0167c9;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: -3700px;
+}
